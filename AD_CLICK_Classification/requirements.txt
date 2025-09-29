@@ -1,0 +1,9 @@
+pandas>=1.4.0         # Used for DataFrame manipulation and data loading
+numpy>=1.21.0         # Dependency for pandas and mathematical operations
+
+Machine Learning
+scikit-learn>=1.0.0   # Core ML library: for splitting, scaling, and all models (LogReg, Decision Tree, RandomForest)
+
+Visualization
+matplotlib>=3.5.0     # For plotting model performance comparison
+seaborn>=0.11.0   
