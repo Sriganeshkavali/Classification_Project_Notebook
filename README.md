@@ -13,7 +13,7 @@ Modeling: Trained and evaluated three classification algorithms (Logistic Regres
 
 Evaluation: Used standard classification metrics (Accuracy, Precision, Recall, F1-Score) to compare model performance and select the best predictor.
 
-## College Student Placement Prediction: Exploratory Data Analysis and Classification
+## Project 2: College Student Placement Prediction: Exploratory Data Analysis and Classification
 This notebook implements a machine learning approach to predict college student placement using a synthetic dataset of 10,000 students.
 
 ### The process involves:
