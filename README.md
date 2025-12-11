@@ -82,3 +82,27 @@ Automatically selects the model with the highest accuracy.
 Plots the Confusion Matrix for the best model.
 Saves the best model to best_model.pkl and the scaler to scaler.pkl.
 
+## Project 5: Happy Data EDA and Classification
+
+### Data Loading and Preprocessing
+* Loaded happydata.csv
+* Renamed the column ëvents to events to fix the character encoding issue/typo.
+* Checked for missing values.
+### Exploratory Data Analysis (EDA)
+* Target Distribution: Visualize how many happy vs. not happy instances exist.
+* Correlation Heatmap: Shows correlation between features like housecost, schoolquality, etc.
+* Pairplot: Visualizes pairwise relationships colored by the target class.
+### Model Building
+^ Split data into 80% training and 20% testing.
+* Trained four models:
+    * Logistic Regression
+    * Decision Tree
+    * Random Forest
+    * Support Vector Machine (SVM)
+    * Gradient Boosting Classifier
+    * AdaBoost Classifier
+### Evaluation and Saving
+Evaluated models using Accuracy and F1 Score.
+Automatically selects the model with the highest F1 Score.
+Saves the best model to best_happy_model.pkl.
+
