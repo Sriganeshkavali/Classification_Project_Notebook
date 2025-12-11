@@ -47,25 +47,26 @@ Best Performing Model: Support Vector Classifier (SVC)
 * SVC achieved the highest accuracy on the test set.
 
 ## Project 4: Obesity Classification
-1. EDA (Exploratory Data Analysis)
+
+**EDA (Exploratory Data Analysis)**
 The notebook performs the following:
 
 * Loads Obesity Classification.csv.
 * Displays basic info and statistical summaries.
+  
 **Visualizations:**
 * Count Plot: Shows balance of target classes (Obesity Levels).
 * Dist Plot: Age distribution.
 * Correlation Heatmap: To see relationships between features.
 
   
-2. Data Preprocessing
+**Data Preprocessing**
 
 **Label Encoding:** Converts Gender and Label to numeric values.
 **splitting:** 80% Train, 20% Test.
 **Scaling:** Uses StandardScaler to normalize numerical features.
 
-
-4. Model Training
+**Model Training**
 
 Trains the following models:
   1. Logistic Regression
@@ -74,7 +75,7 @@ Trains the following models:
   4. Gradient Boosting Classifier
 
 
-4. Evaluation and Saving
+**Evaluation and Saving**
 
 Prints the Accuracy and Classification Report for each model.
 Automatically selects the model with the highest accuracy.
