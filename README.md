@@ -105,8 +105,7 @@ Saves the best model to best_model.pkl and the scaler to scaler.pkl.
 Evaluated models using Accuracy and F1 Score.
 Automatically selects the model with the highest F1 Score.
 Saves the best model to best_happy_model.pkl.
-## Project 6: Predicting Irrigation Need - Kaggle Playground Series
-
+## Project 6: Predicting Irrigation Need
 This project tackles the predicting irrigation need classification problem, attempting to predict the optimal `Irrigation_Need` category (Low, Medium, or High) for agriculture given soil, weather, and crop characteristics.
 ### Exploratory Data Analysis (EDA)
 
