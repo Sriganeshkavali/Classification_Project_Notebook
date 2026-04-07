@@ -105,4 +105,21 @@ Saves the best model to best_model.pkl and the scaler to scaler.pkl.
 Evaluated models using Accuracy and F1 Score.
 Automatically selects the model with the highest F1 Score.
 Saves the best model to best_happy_model.pkl.
+## Project 6: Predicting Irrigation Need - Kaggle Playground Series
 
+This project tackles the predicting irrigation need classification problem, attempting to predict the optimal `Irrigation_Need` category (Low, Medium, or High) for agriculture given soil, weather, and crop characteristics.
+### Exploratory Data Analysis (EDA)
+
+Key insights were established using Matplotlib and Seaborn to visualize distributions:
+- Plotted the target distribution class imbalance.
+- Explored Numeric column histogram distributions (`Soil_Moisture`, `Soil_pH`, `Organic_Carbon`, etc).
+- Created a Heatmap to review multcollinearity and feature correlations.
+
+### 🤖 Models Iterated
+
+To establish the best performance model, the following classifiers were benchmarked against a 20% test split subset:
+
+1. **Logistic Regression** 
+2. **Decision Tree** 
+3. **Random Forest** (Selected Best Model)
+4. **XGBoost Classifier**
