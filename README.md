@@ -122,7 +122,7 @@ To establish the best performance model, the following classifiers were benchmar
 2. **Decision Tree** 
 3. **Random Forest** (Selected Best Model)
 4. **XGBoost Classifier**
-##  GenZ College Admission Prediction & Machine Learning Pipeline
+##  Project 7 GenZ College Admission Prediction & Machine Learning Pipeline
 ### 📋 Project Workflow
 
 1. **Exploratory Data Analysis (EDA):** Detailed investigation into class distributions, data quality/missing values, and academic metric correlations (GPA, standardized test scores) utilizing `Seaborn` and `Matplotlib`.
