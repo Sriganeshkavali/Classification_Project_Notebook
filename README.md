@@ -122,3 +122,25 @@ To establish the best performance model, the following classifiers were benchmar
 2. **Decision Tree** 
 3. **Random Forest** (Selected Best Model)
 4. **XGBoost Classifier**
+##  GenZ College Admission Prediction & Machine Learning Pipeline
+### 📋 Project Workflow
+
+1. **Exploratory Data Analysis (EDA):** Detailed investigation into class distributions, data quality/missing values, and academic metric correlations (GPA, standardized test scores) utilizing `Seaborn` and `Matplotlib`.
+2. **Scalable Data Preprocessing:** Built robust `Scikit-Learn Pipelines` to handle automated feature scaling for numerical variables and `OneHotEncoding` for high-cardinality categorical data, strictly preventing data leakage.
+3. **Stratified Sampling Strategy:** Implemented stratified sampling techniques to optimize model selection and experimentation speeds without losing class representation.
+4. **Model Training & Benchmark:** Evaluated and compared three mathematically distinct algorithms:
+   * **Logistic Regression** (Linear Baseline)
+   * **Random Forest** (Non-linear Ensemble)
+   * **LightGBM** (State-of-the-art Gradient Boosting optimized for large datasets)
+5. **Advanced Evaluation:** Models are rigorously compared using **AUC-ROC** and **F1-Score** to account for potential target class imbalances, accompanied by confusion matrix visualizations.
+6. **Feature Importance & Interpretability:** Extracted and plotted top driving features to explain the decision-making process behind the winning predictive model.
+
+### 🛠️ Tech Stack & Libraries
+* **Language:** Python 3.x (Jupyter Notebook)
+* **Data Manipulation:** `pandas`, `numpy`
+* **Visualization:** `matplotlib`, `seaborn`
+* **Machine Learning & Pipelines:** `scikit-learn`
+* **Gradient Boosting:** `lightgbm`
+
+### 📊 Dataset Reference
+The project relies on the dataset named verbatim as `genz_college_admission_prediction.csv`.
